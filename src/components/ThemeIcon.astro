@@ -45,6 +45,12 @@ const { order = 0 } = Astro.props;
 		return "light";
 	})();
 
+	const updateThemeBasedOnSystem = (e) => {
+	const newColorScheme = e.matches ? "dark" : "light";
+	document.documentElement.classList.toggle("dark", newColorScheme === "dark");
+	localStorage.setItem("theme", newColorScheme);
+ };
+
 	if (theme === "light") {
 		document.documentElement.classList.remove("dark");
 	} else {
@@ -62,4 +68,9 @@ const { order = 0 } = Astro.props;
 	};
 
 	document.getElementById("themeToggle").addEventListener("click", handleToggleClick);
+
+	window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeBasedOnSystem);
+
+ // ページのロード時にもシステムテーマを監視して反映
+	window.matchMedia("(prefers-color-scheme: dark)").matches && document.documentElement.classList.add("dark");
 </script>
