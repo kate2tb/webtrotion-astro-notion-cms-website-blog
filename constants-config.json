@@ -1,26 +1,26 @@
 {
-	"database-id": "169b6e632b7448529120599281265ac5",
-	"author": "",
+	"database-id": "11bd04d24a4f80a3b7a7f9314d4e6622",
+	"author": "Kate",
 	"public-ga-tracking-id": "",
 	"google-search-console-html-tag": "",
 	"socials": {
-		"email": "",
+		"email": "contact@kate.jp",
 		"github": "",
 		"googlescholar": "",
 		"semanticscholar": "",
 		"dblp": "",
 		"facebook": "",
-		"twitter": "",
+		"twitter": "x.com/kate2tb",
 		"threads": "",
 		"instagram": "",
 		"mastodon": "",
 		"calendar": "",
-		"this-github-repo": "https://github.com/nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog"
+		"this-github-repo": "https://github.com/kate2tb/webtrotion-astro-notion-cms-website-blog"
 	},
 	"custom-domain": "",
 	"base-path": "",
 	"giscus": {
-		"data-repo": "nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
+		"data-repo": "",
 		"data-repo-id": "R_kgDOK0FuUA",
 		"data-category": "Announcements",
 		"data-category-id": "DIC_kwDOK0FuUM4CbZ5A",
