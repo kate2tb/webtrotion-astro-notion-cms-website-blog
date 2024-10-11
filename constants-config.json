@@ -20,8 +20,8 @@
 	"custom-domain": "",
 	"base-path": "",
 	"giscus": {
-		"data-repo": "",
-		"data-repo-id": "R_kgDOK0FuUA",
+		"data-repo": "kate2tb/webtrotion-astro-notion-cms-website-blog",
+		"data-repo-id": "R_kgDOM-nBKQ",
 		"data-category": "Announcements",
 		"data-category-id": "DIC_kwDOK0FuUM4CbZ5A",
 		"data-mapping": "pathname",
